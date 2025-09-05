@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta name="Nagatoisme" content="Read online comics" />
+        <meta charset="utf-8" />
+        <title>Nagatoisme</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="Null" content="" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="script" href="script.js" />
+    </head>
+
+    <body>
+        <div class="bookholder">
+            <div class="book">
+                <embed src="books/rust_book.pdf" width="400px" height="800px" />
+            </div>
+            <div class="book">
+                <style>
+                    .pdfobject-container {
+                        height: 500px;
+                        border: 1px solid #ccc;
+                    }
+                </style>
+                <div id="my-pdf"></div>
+                <script src="https://unpkg.com/pdfobject"></script>
+                <script>
+                    PDFObject.embed("books/rust_book.pdf", "#my-pdf");
+                </script>
+            </div>
+        </div>
+    </body>
+</html>
