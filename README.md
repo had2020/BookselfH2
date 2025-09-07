@@ -1,5 +1,7 @@
-# Nagatoisme
+# BookselfH2
 A barebones and simplifyed framework for putting personal papers online.
+
+Example: https://had2020.github.io/BookselfH2/
 
 # How to add a new book
 Firstly copy the book as a pdf file format, into the books directory.
